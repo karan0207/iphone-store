@@ -433,7 +433,9 @@ display: none;
  .nav .logo {
   display: none;
  }
-
+ .nav .menu {
+  margin-right: 2rem;
+ }
 
 
 
