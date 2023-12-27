@@ -212,11 +212,11 @@ const Loader = () => {
       <div className="svgwaala">
         <div id="dotted">
           <img id="donut" src={''} alt="" />
-          <img id="kothik-k" src={I} alt="i" />
-          <img id="kothik-k2" src={P} alt="p" />
-          <img id="kothik-o" src={H} alt="h" />
-          <img id="kothik-t" src={O} alt="o" />
-          <img id="kothik-h" src={N} alt="n" />
+          {/* <img id="kothik-k" src={I} alt="i" /> */}
+          {/* <img id="kothik-k2" src={P} alt="p" /> */}
+          {/* <img id="kothik-o" src={H} alt="h" /> */}
+          {/* <img id="kothik-t" src={O} alt="o" /> */}
+          {/* <img id="kothik-h" src={N} alt="n" /> */}
           <img id='iphone-i' src={I} alt="i" />
           <img id='iphone-p' src={P} alt="p" />
           <img id='iphone-h' src={H} alt="h" />
