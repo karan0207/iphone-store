@@ -426,7 +426,10 @@ display: none;
 
 @media screen and (max-width:380px){
 
-
+ .nav {
+  overflow: hidden;
+  padding: 0 2rem;
+ }
  .nav .logo {
   display: none;
  }
@@ -477,12 +480,38 @@ display: none;
    }
 
 
+   .window {
+    width: 100%;
+    height: 100vh;
+    
+   }
+    /* .window .mid  {
+   padding: 0 10vw; */
+   /* } */
+   /* .window .mid .left h1{
+   font-size: 10vw;
+   }  */
+
+   .window .mid {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 3 5rem;
+   }
 
    .window .mid .left {
-   padding: 0 10vw;
+    position: absolute;
+    top: 15%;
+    height: 50%;
    }
    .window .mid .left h1{
-   font-size: 10vw;
+    font-size: 12vw;
+   }
+   .window .mid .right {
+   position: absolute;
+   bottom: 0;
+   height: 50%;
    }
    
 }
