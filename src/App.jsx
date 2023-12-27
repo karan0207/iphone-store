@@ -10,8 +10,8 @@ const App = () => {
     <>
       <Router>
         <Routes>
-          <Route path="/" element={<Loader/>}/>
-          <Route path="/Home" element={<Front/>}/>
+          <Route path="/iphone-store/" element={<Loader/>}/>
+          <Route path="/iphone-store/Home" element={<Front/>}/>
           
         </Routes>
       </Router>
