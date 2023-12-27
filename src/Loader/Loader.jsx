@@ -226,7 +226,7 @@ const Loader = () => {
         </div>
         <div id="explore">
           {/* <h1 >Explore</h1> */}
-          <button onClick={()=>navigate('/Home')}>Explore</button>
+          <button onClick={()=>navigate('/iphone-store/Home')}>Explore</button>
         </div>
       </div>
     </div>
