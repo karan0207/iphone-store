@@ -1,22 +1,24 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect } from 'react';
-import Iphone from '../assets/iphone.png';
+import Iphone from '../assets/iphone-min.png';
 
 const Home = () => {
 
    useEffect(()=>{
 
-   const heading = document.querySelector(".heading-home");
-
   
-   setTimeout(() => {
-    heading.style.backgroundImage = 'none';
-  heading.style.color = 'black';
-  heading.style.backgroundClip = 'none';
-   }, 3000);
+
+    const heading = document.querySelector(".heading-home");
+    setTimeout(() => {
+     heading.style.backgroundImage = 'none';
+   heading.style.color = 'black';
+   heading.style.backgroundClip = 'none';
+    }, 3000);
+  
    
 
    },[]);
+   
 
   return (
     <div className='page1'>

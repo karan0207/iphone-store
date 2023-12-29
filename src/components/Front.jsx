@@ -14,8 +14,8 @@ const Front = () => {
 
     gsap.registerPlugin(ScrollTrigger);
 
-    useEffect(() => {
-      const tl = gsap.timeline();
+    // useEffect(() => {
+    //   const tl = gsap.timeline();
     //   if(window.innerWidth<700 && window.innerWidth>500) {
     //     tl.to("#iphone", {
     //         opacity: 1,
@@ -69,7 +69,7 @@ const Front = () => {
     //       });
     //   }
      
-    }, []);
+    // }, []);
 
 
   return (

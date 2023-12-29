@@ -53,16 +53,16 @@
   justify-content: center;
   align-items: center;
 }
-.right h1 {
+.right .heading-home {
   font-size: 10vw;
   font-family: "Poppins", sans-serif;
   color: transparent;
   -webkit-background-clip: text;
-  background-image: url("https://media2.giphy.com/media/z2POQZ2t8s5Gzp4C7r/giphy.gif?cid=ecf05e47hnal9izj12kv4jflyp9jb4ltk9q13fm9ziwcp8c9&ep=v1_gifs_search&rid=giphy.gif&ct=g");
-  background-image: url("https://media3.giphy.com/media/8vIEv5JZmO1RRU0Wmz/giphy.gif?cid=ecf05e47rquwu3nxqtayo3vpouc6j2hteiot5jrbgj1wur7p&ep=v1_gifs_related&rid=giphy.gif&ct=g");
+  /* background-image: url("https://media2.giphy.com/media/z2POQZ2t8s5Gzp4C7r/giphy.gif?cid=ecf05e47hnal9izj12kv4jflyp9jb4ltk9q13fm9ziwcp8c9&ep=v1_gifs_search&rid=giphy.gif&ct=g"); */
+  background-image:  url("../assets/animationheading.webp");
   background-position: center;
   background-size: cover;
-  backdrop-filter: blur(4px);
+  /* backdrop-filter: blur(4px); */
   
 }
 /* .page1 .right h1::after {
@@ -426,18 +426,30 @@ display: none;
 
 @media screen and (max-width:380px){
 
- .nav {
+ /* .nav {
   overflow: hidden;
   padding: 0 2rem;
+  border: 1px solid red;
+  justify-content: space-between;
  }
  .nav .logo {
   display: none;
+  border: 1px solid yellow;
+ }
+ .nav .links {
+  border: 1px solid brown;
  }
  .nav .menu {
-  margin-right: 2rem;
+  border: 1px solid white;
+  margin-right: 30px;
+ } */
+/* .nav {
+  padding: 0 20px;
+} */
+ .nav .logo {
+  display: none;
+  
  }
-
-
 
 
   .page2 .content  {
