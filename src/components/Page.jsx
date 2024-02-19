@@ -41,7 +41,7 @@ const Page = () => {
         
         
         <div className="gif">
-        <img loading="lazy" src="https://media3.giphy.com/media/26n79t82lmj989iAE/giphy.gif?cid=ecf05e47b94lr2977vtip934qj0i89f8n1zs0fpar47clhg7&ep=v1_gifs_related&rid=giphy.gif&ct=g" alt="" />
+        <img  src="https://media3.giphy.com/media/26n79t82lmj989iAE/giphy.gif?cid=ecf05e47b94lr2977vtip934qj0i89f8n1zs0fpar47clhg7&ep=v1_gifs_related&rid=giphy.gif&ct=g" alt="" />
       </div>
       </div>
       
