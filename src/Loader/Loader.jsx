@@ -77,7 +77,8 @@ const Loader = () => {
           )
         
           .from(
-            "#kothik-k, #kothik-o, #kothik-t, #kothik-h, #kothik-k2, #kothik-i",
+            // "#kothik-k, #kothik-o, #kothik-t, #kothik-h, #kothik-k2, #kothik-i",
+           "#iphone-i,#iphone-p,#iphone-h,#iphone-o,#iphone-n,iphone-e" ,
             {
               opacity: 0,
               duration: 1,
@@ -217,12 +218,12 @@ const Loader = () => {
           {/* <img id="kothik-o" src={H} alt="h" /> */}
           {/* <img id="kothik-t" src={O} alt="o" /> */}
           {/* <img id="kothik-h" src={N} alt="n" /> */}
-          <img loading="lazy" id='iphone-i' src={I} alt="i" />
-          <img loading="lazy" id='iphone-p' src={P} alt="p" />
-          <img loading="lazy" id='iphone-h' src={H} alt="h" />
-          <img loading="lazy" id='iphone-o' src={O} alt="o" />
-          <img loading="lazy" id='iphone-n' src={N} alt="n" />
-          <img loading="lazy" id='iphone-e' src={E} alt="e" />
+          <img  id='iphone-i' src={I} alt="i" />
+          <img  id='iphone-p' src={P} alt="p" />
+          <img  id='iphone-h' src={H} alt="h" />
+          <img  id='iphone-o' src={O} alt="o" />
+          <img  id='iphone-n' src={N} alt="n" />
+          <img  id='iphone-e' src={E} alt="e" />
         </div>
         <div id="explore">
           {/* <h1 >Explore</h1> */}
