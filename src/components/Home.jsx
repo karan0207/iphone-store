@@ -23,7 +23,7 @@ const Home = () => {
   return (
     <div className='page1'>
       <div className="left">
-        <img id='iphone' src={Iphone} alt="iphone" />
+        <img id='iphone' loading="lazy" src={Iphone} alt="iphone" />
       </div>
       <div className="right">
         <h1 className='heading-home'>IPHONE</h1>
